@@ -19,15 +19,10 @@ body {
     position: relative;
     z-index: 0;
 }
-
-.picture:hover {
-    
-}
-
 .picture-fade {
-
     /* positioning */
     position: absolute;
+    bottom: 0;
     height: 301px;
     width: 300px;
     z-index: 1;
@@ -51,7 +46,7 @@ body {
         letter-spacing: 0.4em;
 
         /* padding */
-        padding: 1em 0 1.3em;
+        padding: 1em 0 1.1em;
     }
 
     img {
@@ -163,6 +158,32 @@ body {
             position: absolute;
             left: 0px;
             bottom: 0px;
+        }
+    }
+
+    /* Picture Overlay */
+    #choco-bar {
+        height: auto;
+        width: 435px;
+
+        position: absolute;
+        top: -8px;
+        right: 0;
+        z-index: 4;
+
+        img {
+            height: 100vh;
+            width: auto;
+        }
+
+        #bar {
+            position: absolute;
+            z-index: 6;
+        }
+
+        #bits {
+            position: absolute;
+            z-index: 5;
         }
     }
 }

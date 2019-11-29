@@ -16,6 +16,7 @@ body {
 .picture-fade {
   /* positioning */
   position: absolute;
+  bottom: 0;
   height: 301px;
   width: 300px;
   z-index: 1; }
@@ -35,7 +36,7 @@ body {
     font-size: 10px;
     letter-spacing: 0.4em;
     /* padding */
-    padding: 1em 0 1.3em; }
+    padding: 1em 0 1.1em; }
   .text-wrapper img {
     height: 2em;
     width: auto; }
@@ -87,7 +88,8 @@ body {
   left: 0px;
   top: 0px;
   width: 100vw;
-  height: 50vh; }
+  height: 50vh;
+  /* Picture Overlay */ }
   #row-1 .left-panel {
     /* display */
     display: flex;
@@ -116,6 +118,22 @@ body {
       position: absolute;
       left: 0px;
       bottom: 0px; }
+  #row-1 #choco-bar {
+    height: auto;
+    width: 435px;
+    position: absolute;
+    top: -8px;
+    right: 0;
+    z-index: 4; }
+    #row-1 #choco-bar img {
+      height: 100vh;
+      width: auto; }
+    #row-1 #choco-bar #bar {
+      position: absolute;
+      z-index: 6; }
+    #row-1 #choco-bar #bits {
+      position: absolute;
+      z-index: 5; }
 
 /* ROW 2 */
 #row-2 {
