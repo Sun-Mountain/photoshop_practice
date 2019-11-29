@@ -15,6 +15,24 @@ body {
     width: 50vw;
 }
 
+.picture {
+    position: relative;
+    z-index: 0;
+}
+
+.picture:hover {
+    
+}
+
+.picture-fade {
+
+    /* positioning */
+    position: absolute;
+    height: 301px;
+    width: 300px;
+    z-index: 1;
+}
+
 .square {
     background-color: $row-bg-white;
     display: inline-block;
@@ -56,21 +74,46 @@ body {
 .picture-text-wrapper {
     /* font */
     color: $pic-font-color;
-    font-size: 24px;
 
     /* positioning */
     position: absolute;
     bottom: 0;
-    z-index: 2;
 
     /* size & padding */
     padding: 22px;
     width: auto;
+    z-index: 3;
 
     .header {
-        font-size: 8px;
+        font-size:8px;
         letter-spacing: 0.2em;
         margin: 5px 0;
+    }
+
+    .read {
+        display: none;
+        letter-spacing: 0;
+    }
+
+    .text {
+        display: none;
+        font-size: 10px;
+        letter-spacing: .05em;
+        padding: 0.5em 1.5em 0.5em 0;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+}
+
+.picture:hover {
+    .read {
+        display: block;
+    }
+
+    .text {
+        display: block;
     }
 }
 
@@ -83,7 +126,6 @@ body {
     top: 0px;
     width: 100vw;
     height: 50vh;
-    z-index: 52;
 
     .left-panel {
         /* display */
