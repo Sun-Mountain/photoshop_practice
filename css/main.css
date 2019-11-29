@@ -1,24 +1,133 @@
 /* COLORS */
 body {
   background-color: #eaeaea;
+  font-family: "Century Gothic";
   margin: 0 auto; }
 
 /* PANELS */
 .panel {
-  width: 1800px;
-  height: 1470px; }
+  height: 50vh;
+  width: 50vw; }
+
+.square {
+  background-color: #FFF;
+  display: inline-block;
+  height: 301px;
+  width: 300px; }
+
+.text-wrapper {
+  /* size & padding */
+  padding: 2.3em;
+  width: auto; }
+  .text-wrapper .header {
+    /* font */
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    /* padding */
+    padding: 1em 0 1.3em; }
+  .text-wrapper img {
+    height: 2em;
+    width: auto; }
+  .text-wrapper .square-descript {
+    font-size: 19px;
+    line-height: 1.3em; }
+
+/* TEXT */
+.header {
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.picture-text-wrapper {
+  /* font */
+  color: #FFF;
+  font-size: 24px;
+  /* positioning */
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  /* size & padding */
+  padding: 22px;
+  width: auto; }
+  .picture-text-wrapper .header {
+    font-size: 8px;
+    letter-spacing: 0.2em;
+    margin: 5px 0; }
 
 /* ROW 1 */
 #row-1 {
+  display: flex;
+  flex-direction: row;
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 1800px;
-  height: 1470px;
+  width: 100vw;
+  height: 50vh;
   z-index: 52; }
   #row-1 .left-panel {
+    /* display */
+    display: flex;
+    flex-direction: column;
+    /* positioning */
     position: absolute;
     left: 0px;
     top: 0px; }
+    #row-1 .left-panel .square {
+      position: absolute;
+      right: 0px;
+      bottom: 0px; }
+  #row-1 .right-panel {
+    /* Positioning */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    /* dimension */
+    width: 50vw;
+    height: 50vh; }
+    #row-1 .right-panel .square {
+      /* Lewk */
+      background-image: url("/images/cocoa_wokers.png");
+      background-size: cover;
+      /* Positioning */
+      position: absolute;
+      left: 0px;
+      bottom: 0px; }
 
 /* ROW 2 */
+#row-2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100vw;
+  height: 50vh; }
+  #row-2 .left-panel {
+    /* display */
+    display: flex;
+    flex-direction: column;
+    /* positioning */
+    position: absolute;
+    left: 0px;
+    bottom: 0px; }
+    #row-2 .left-panel .square {
+      /* Lewk */
+      background-image: url("/images/candy_aisle.png");
+      background-size: cover;
+      /* Positioning */
+      position: absolute;
+      right: 0px;
+      top: 0px; }
+  #row-2 .right-panel {
+    /* positioning */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    /* dimensions */
+    width: 50vw;
+    height: 50vh; }
+    #row-2 .right-panel .square {
+      /*  */
+      /* Positioning */
+      position: absolute;
+      left: 0px;
+      top: 0px; }
