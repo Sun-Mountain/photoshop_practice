@@ -1,0 +1,80 @@
+.Checkerboard_Row_2_Left_Panel_HOVER {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1800px;
+    height: 1470px;
+    z-index: 33;
+  }
+  .Insights_Report {
+    font-size: 12px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: left;
+    -moz-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -webkit-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -ms-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    position: absolute;
+    left: 356.261px;
+    top: 990.249px;
+    width: 147.479px;
+    height: 9px;
+    z-index: 32;
+  }
+  .Experience_and_Convenience_in_a_Shopper_s_World {
+    font-size: 36px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.167;
+    text-align: left;
+    -moz-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -webkit-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -ms-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    position: absolute;
+    left: 354.78px;
+    top: 1030.576px;
+    width: 308.439px;
+    height: 69px;
+    z-index: 31;
+  }
+  .Turn_data_into_dollars_with_our_top_8_retail_in {
+    font-size: 18px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: left;
+    -moz-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -webkit-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -ms-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    position: absolute;
+    left: 354.74px;
+    top: 1115.538px;
+    width: 403.52px;
+    height: 153px;
+    z-index: 30;
+  }
+  .Rectangle_7 {
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    opacity: 0.769;
+    position: absolute;
+    left: 298px;
+    top: 985px;
+    width: 600px;
+    height: 306px;
+    z-index: 29;
+  }
+  .Rectangle_2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 298px;
+    top: 691px;
+    width: 600px;
+    height: 600px;
+    z-index: 27;
+  }
+  
