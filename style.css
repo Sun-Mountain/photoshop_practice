@@ -1,0 +1,80 @@
+.Checkerboard_Row_1_Right_Panel_HOVER {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1800px;
+    height: 1470px;
+    z-index: 60;
+  }
+  .Featured_Story {
+    font-size: 12px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: left;
+    -moz-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -webkit-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -ms-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    position: absolute;
+    left: 956.719px;
+    top: 434.249px;
+    width: 139.562px;
+    height: 9px;
+    z-index: 59;
+  }
+  .Cocoa_for_Good {
+    font-size: 36px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.167;
+    text-align: left;
+    -moz-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -webkit-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -ms-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    position: absolute;
+    left: 954.765px;
+    top: 474.076px;
+    width: 288.471px;
+    height: 27px;
+    z-index: 58;
+  }
+  .At_Hershey__our_vision_is_a_world_where_cocoa_f {
+    font-size: 18px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: left;
+    -moz-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -webkit-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -ms-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    position: absolute;
+    left: 959.173px;
+    top: 514.038px;
+    width: 390.654px;
+    height: 153px;
+    z-index: 57;
+  }
+  .Rectangle_7 {
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    opacity: 0.4;
+    position: absolute;
+    left: 897px;
+    top: 226px;
+    width: 601px;
+    height: 466px;
+    z-index: 56;
+  }
+  .Rectangle_2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 897px;
+    top: 91px;
+    width: 601px;
+    height: 601px;
+    z-index: 54;
+  }
+  
