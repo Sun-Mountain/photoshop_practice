@@ -1,0 +1,151 @@
+.Checkerboard_Row_2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1800px;
+    height: 1470px;
+    z-index: 25;
+  }
+  .Kisses_Image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1800px;
+    height: 1470px;
+    z-index: 24;
+  }
+  .Layer_16_copy {
+    background-image: url("Layer 16 copy.png");
+    opacity: 0.51;
+    position: absolute;
+    left: 1308px;
+    top: 1323px;
+    width: 398px;
+    height: 86px;
+    z-index: 22;
+  }
+  .Layer_16 {
+    background-image: url("Layer 16.png");
+    opacity: 0.51;
+    position: absolute;
+    left: 1196px;
+    top: 1351px;
+    width: 398px;
+    height: 86px;
+    z-index: 21;
+  }
+  .Left_Panel {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1800px;
+    height: 1470px;
+    z-index: 15;
+  }
+  .Insights_report {
+    font-size: 12px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.5;
+    text-align: left;
+    -moz-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -webkit-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -ms-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    position: absolute;
+    left: 356.261px;
+    top: 1167.249px;
+    width: 147.479px;
+    height: 9px;
+    z-index: 14;
+  }
+  .Experience_and_Convenience_in_a_Shopper_s_World {
+    font-size: 36px;
+    font-family: "Century Gothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.167;
+    text-align: left;
+    -moz-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -webkit-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -ms-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    position: absolute;
+    left: 354.78px;
+    top: 1206.576px;
+    width: 308.439px;
+    height: 69px;
+    z-index: 13;
+  }
+  .Rectangle_7 {
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%);
+    opacity: 0.769;
+    position: absolute;
+    left: 298px;
+    top: 985px;
+    width: 600px;
+    height: 306px;
+    z-index: 12;
+  }
+  .Rectangle_2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 298px;
+    top: 691px;
+    width: 600px;
+    height: 600px;
+    z-index: 10;
+  }
+  .Right_Panel {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1800px;
+    height: 1470px;
+    z-index: 8;
+  }
+  .Aisle_Transformation {
+    font-size: 18px;
+    font-family: "Century Gothic";
+    color: rgb(55, 3, 17);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.667;
+    text-align: left;
+    -moz-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -webkit-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    -ms-transform: matrix( 0.99024092205179,0,0,0.98837716773283,0,0);
+    position: absolute;
+    left: 997.8px;
+    top: 876.58px;
+    width: 309.4px;
+    height: 13px;
+    z-index: 7;
+  }
+  .Never_satisfied_with_the_status_quo__Hershey_ha {
+    font-size: 36px;
+    font-family: "Century Gothic";
+    color: rgb(55, 3, 17);
+    line-height: 1.333;
+    text-align: left;
+    -moz-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -webkit-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    -ms-transform: matrix( 0.99123263366857,0,0,0.99122210255074,0,0);
+    position: absolute;
+    left: 995.153px;
+    top: 950.076px;
+    width: 403.695px;
+    height: 322px;
+    z-index: 6;
+  }
+  .Rectangle_2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 897px;
+    top: 691px;
+    width: 601px;
+    height: 600px;
+    z-index: 4;
+  }
+  
