@@ -1,12 +1,36 @@
 /* COLORS */
 $background-grey: #eaeaea;
+$row-bg-white: #FFF;
 
 body {
     background-color: $background-grey;
     margin: 0 auto;
 }
 
-/* ROW 1 */
+/* PANELS */
+.left-panel {
+    width: 1800px;
+    height: 1470px;
+}
 
+/* ROW 1 */
+#row-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1800px;
+    height: 1470px;
+    z-index: 52;
+
+    .left-panel {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+}
 
 /* ROW 2 */
+
+#row-2 {
+    
+}
