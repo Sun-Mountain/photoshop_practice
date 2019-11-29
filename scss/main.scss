@@ -164,15 +164,15 @@ body {
     /* Picture Overlay */
     #choco-bar {
         height: auto;
-        width: 435px;
+        width: 445px;
 
         position: absolute;
-        top: -8px;
+        top: 1vh;
         right: 0;
         z-index: 4;
 
         img {
-            height: 100vh;
+            height: 22vh;
             width: auto;
         }
 
@@ -226,6 +226,7 @@ body {
         position: absolute;
         right: 0px;
         bottom: 0px;
+        z-index: 3;
 
         /* dimensions */
         width: 50vw;
@@ -238,6 +239,10 @@ body {
             position: absolute;
             left: 0px;
             top: 0px;
+        }
+
+        #kisses {
+            z-index: 4;
         }
     }
 }

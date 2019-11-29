@@ -120,13 +120,13 @@ body {
       bottom: 0px; }
   #row-1 #choco-bar {
     height: auto;
-    width: 435px;
+    width: 445px;
     position: absolute;
-    top: -8px;
+    top: 1vh;
     right: 0;
     z-index: 4; }
     #row-1 #choco-bar img {
-      height: 100vh;
+      height: 22vh;
       width: auto; }
     #row-1 #choco-bar #bar {
       position: absolute;
@@ -165,6 +165,7 @@ body {
     position: absolute;
     right: 0px;
     bottom: 0px;
+    z-index: 3;
     /* dimensions */
     width: 50vw;
     height: 50vh; }
@@ -174,3 +175,5 @@ body {
       position: absolute;
       left: 0px;
       top: 0px; }
+    #row-2 .right-panel #kisses {
+      z-index: 4; }
