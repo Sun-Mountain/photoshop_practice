@@ -1,2 +1,225 @@
+/* UNISVERSAL */
 body {
-  margin: 0 auto; }
+  background-color: #eaeaea;
+  font-family: "Century Gothic";
+  margin: 0 auto;
+}
+
+.header {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* CONTAINERS */
+#container-main {
+  display: flex;
+
+  /* position */
+  left: 0;
+  top: 0;
+
+  /* size */
+  width: 100vw;
+  height: 100vh;
+}
+
+#container-grid {
+  margin: auto;
+
+  /* size */
+  height: 675px;
+  width: 930px;
+}
+
+/* ROWS & PANELS & SQUARES */
+.row {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.panel {
+  position: relative;
+  width: 465px;
+}
+
+.square {
+  background-color: white;
+  height: 301px;
+  width: 300px;
+}
+
+/* INDIV PANELS */
+#top-left {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#top-right {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#bottom-left {
+  position: absolute;
+  right: 0;
+}
+
+/* TEXT SQUARES */
+.icon img {
+  width: 28px;
+  height: auto;
+}
+
+.text-wrapper {
+  padding: 48px;
+}
+
+.text-wrapper .header {
+  font-size: 9px;
+  letter-spacing: 3px;
+  margin: 0 0 11px 0;
+}
+
+.text-content {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 24px;
+}
+
+/* PICTURE SQUARES */
+.picture {
+  color: #fff;
+}
+
+#top-right {
+  /* Lewk */
+  background-image: url("https://github.com/Sun-Mountain/photoshop_practice/blob/master/images/cocoa_wokers.png?raw=true");
+  background-size: cover;
+
+  /* Positioning */
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#bottom-left {
+  /* Lewk */
+  background-image: url("https://github.com/Sun-Mountain/photoshop_practice/blob/master/images/candy_aisle.png?raw=true");
+  background-size: cover;
+
+  /* Positioning */
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.picture-text-wrapper {
+  /* font */
+  color: #fff;
+
+  /* positioning */
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+
+  /* size & padding */
+  padding: 22px 22px 32px 22px;
+  width: auto;
+}
+
+.picture-text-wrapper .header {
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin: 5px 0;
+}
+
+.picture-text-wrapper .title {
+  font-size: 18px;
+}
+
+.picture-text-wrapper .read {
+  display: none;
+  letter-spacing: 0;
+}
+
+.picture-text-wrapper .text {
+  display: none;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding: 10px 25px 5px 0;
+}
+
+.picture-fade {
+  /* fade */
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 50%);
+  opacity: 0.4;
+
+  /* positioning */
+  position: absolute;
+  bottom: 0;
+  height: 301px;
+  width: 300px;
+  z-index: 1;
+}
+
+/* PICTURE HOVER */
+.picture:hover .read {
+  display: block;
+}
+
+.picture:hover .text {
+  display: block;
+}
+
+.picture:hover .picture-fade {
+  /* fade */
+  background: black;
+  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.76;
+}
+
+/* OVERLAY */
+#choco-bar {
+  height: auto;
+  width: 445px;
+  position: absolute;
+  z-index: 4;
+}
+
+#bar img {
+  height: 160px;
+  width: auto;
+}
+
+#bar {
+  position: absolute;
+  z-index: 6;
+}
+
+#bits img {
+  width: 190px;
+  height: auto;
+  z-index: 2;
+}
+
+#kisses {
+  width: 410px;
+
+  /* positioning */
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  z-index: 4;
+}
+
+#kisses img {
+  height: 195px;
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
